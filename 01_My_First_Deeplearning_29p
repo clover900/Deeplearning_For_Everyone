@@ -9,7 +9,7 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 np.random.seed(3)
 tf.random.set_seed(3)
-Data_set = np.loadtxt("deeplearing/dataset/ThoraricSurgery.csv", delimiter= ",")
+Data_set = np.loadtxt("C:/Users/clove/Desktop/deeplearning/dataset/ThoraricSurgery.csv", delimiter= ",")
 X = Data_set [:, 0:17]
 Y = Data_set [:, 17]
 model = Sequential()
